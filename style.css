@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Comic Sans MS';
+    background-color: white;
 }
 
 #tentacles {
@@ -21,10 +21,16 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: baseline;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: lightblue;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -49,7 +55,7 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: seashell;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -67,7 +73,7 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Comic Sans MS';
     border: none;
     padding: 1%;
     margin: 1%;
